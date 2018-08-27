@@ -10,7 +10,7 @@ body{
 }
 * {
     font-family: 'Futura';
-    src: url('futura.ttf');
+    src: url('Assets/futura.ttf');
 }
 #timer{
   position: relative;
