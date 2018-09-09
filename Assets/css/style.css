@@ -64,39 +64,10 @@
    left: 0;
  }
 
- .dropdown-menu {
-   border-radius: 40px;
-   background-color: transparent;
-   border: none;
- }
-
- .dropdown-item:hover {
-   background-color: transparent;
-   opacity: 0.7;
- }
-
- .nav-link:hover {
-   opacity: 0.7;
- }
-
- @media only screen and (max-width:768px) {
-   .head {
-     font-size: 15px !important;
-   }
-
-   .nav-item {
-     font-size: 15px !important;
-   }
-
-   .hero-text {
-     font-size: 32px !important;
-   }
- }
-
  .hero {
    width: auto;
    position: relative;
-   margin: 0 auto;
+   margin-top: 90px;
    transform: translateY(100%);
    height: auto;
    background-color: transparent;
@@ -112,3 +83,35 @@
    font-size: 50px;
    letter-spacing: 3px;
  }
+ #navbar{
+ 	opacity: .9;
+ 	position: fixed;
+ 	margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 5px;
+  background-color: #FF2B06;
+  color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+ }
+ .navContent{
+ 	font-size:20px;
+ 	width: 180px;
+  color: white;
+ 	transition: 0.2s;
+ 	margin-left: 6vw;
+ 	margin-right:4vw;
+ 	letter-spacing: 5px;
+ 	text-transform: uppercase;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+ }.navContent:hover{
+ 	transform: scale(1.1);
+ 	transition: 0.2s;
+}
+ a {
+   color: #fff;
+}
