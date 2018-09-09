@@ -87,6 +87,17 @@
  	opacity: .9;
  	position: fixed;
   margin-right: 5px;
+  margin-top: 2vw;
+  background-color: #FF2B06;
+  color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+ }
+ #navbar2{
+   opacity: .9;
+   position: fixed;
+  margin-right: 5px;
   margin-top: -7vw;
   background-color: #FF2B06;
   color: white;
@@ -224,6 +235,6 @@
 
 .images{
   margin-left:40px;
-  margin-right: 100px;
+  margin-right: 40px;
   margin-top: 100px;
 }
