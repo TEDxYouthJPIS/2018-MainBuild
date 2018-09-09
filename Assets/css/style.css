@@ -98,6 +98,7 @@
  .navContent{
  	font-size:20px;
  	width: 180px;
+  opacity: 1;
   color: white;
  	transition: 0.2s;
  	margin-left: 6vw;
