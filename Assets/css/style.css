@@ -101,13 +101,13 @@
   opacity: 1;
   color: white;
  	transition: 0.2s;
- 	margin-left: 6vw;
+ 	margin-left: 4vw;
  	margin-right:4vw;
  	letter-spacing: 5px;
  	text-transform: uppercase;
   padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 20px;
  }.navContent:hover{
  	transform: scale(1.1);
