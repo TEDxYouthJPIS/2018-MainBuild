@@ -7,86 +7,110 @@
 		<title>TEDxYouth@JPIS</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="icon" href="assets/favicon.png" type="image/png">
 		<script src="assets/js/jquery-3.3.1.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		 <link href="https://fonts.googleapis.com/css?family=Karla|Montserrat" rel="stylesheet">
 		 <script src="assets/js/images.js"></script>
+     <style>
+     body{
+       overflow:hidden;
+     }
+     /* Responsiveness */
+     @media only screen and (max-width:600px) and (min-width:400px){
+       .hero-text{
+         font-size: 25px;
+         text-align: center!important;
+       }.logo{
+         width: 250px!important;
+       }.head{
+         margin-left: -10!important;
+       }
+     }
+     @media only screen and (max-width:399px){
+       .logo{
+         width: 200px;
+       }
+     }
+     .logo{
+       width: 500px;
+     }
+     .nav-link{
+       text-transform: uppercase;
+     }
+     .collapse .navbar-collapse{
+       background: transparent;
+     }
+    </style>
 	</head>
 
 	<body>
-		<!-- Main Div -->
-		<div id="particles-js">
-			<!-- Navbar starts -->
-			<nav class="navbar navbar-expand-xl" id="navbar" align="center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggler">
-					<img src="" style="width:20px;height:30px; align-content: center;border:none;" alt="Insert Image">
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav pt-2 pb-2 justify-content-center">
-						<li class="nav-item mt-0 navContent">
-							<a href="index.html" style="color: white;">Shatter</a>
-						</li>
-						<li class="nav-item mt-0 navContent">
-								<a href="#" style="color: white;">Speakers</a>
-						</li>
-						<li class="nav-item mt-0 navContent">
-							<a href="team.html"style="color: white;">Team</a>
-						</li>
-						<li class="nav-item mt-0 navContent">
-							<a href="#"style="color: white;">Volunteers</a>
-						</li>
-						<li class="nav-item mt-0 navContent">
-							<a href="#"style="color: white;">Past Speakers</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<!-- Navbar ends -->
-			<!-- Text div starts -->
-			<div class="hero">
-				<h1 class="hero-text">
-					SHATTER
-				  <span class="typer" id="main" data-words="LIMITS,MISCONCEPTIONS,EXPECTATIONS,THE GLASS CEILING" data-colors="white" data-delay="50" data-deleteDelay="1000"></span>
-				  <span class="cursor" data-owner="main"></span>
-				</h1>
-			</div>
-			<!-- Timer -->
-			<div id="timer">
-				<div id="clockdiv">
-					<div>
-						<span class="days"></span>
-						<div class="smalltext">Days</div>
-					</div>
-					<div>
-						<span class="hours"></span>
-						<div class="smalltext">Hours</div>
-					</div>
-					<div>
-						<span class="minutes"></span>
-						<div class="smalltext">Minutes</div>
-					</div>
-					<div>
-						<span class="seconds"></span>
-						<div class="smalltext">Seconds</div>
-					</div>
-				</div>
-				<script src="assets/js/timer.js"></script>
-			</div>
-		</div>
-		<!-- Scripts -->
-		<script src="assets/js/typer.js"></script>
-		<script type="text/javascript" src="assets/js/particles.js"></script>
-		<script type="text/javascript" src="assets/js/app.js"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="particles-js">
 
-	</body>
+      <nav class="navbar navbar-collapse-xsm ted-nav navbar-dark">
+  				 <a class="navbar-brand head" href="about.html"><img src="logo.png" class="logo"></a>
+  				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      			 <span class="navbar-toggler-icon"></span>
 
-</html>
+    				</button>
+    				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      				<ul class="navbar-nav mr-auto">
+      					<li class="nav-item ">
+          					<a class="nav-link mt-2 ml-2 mb-2" href="about.html">About</a>
+        					</li>
+        					<li class="nav-item ">
+          					<a class="nav-link mt-2 ml-2 mb-2" href="#">Team</a>
+        					</li>
+        					<li class="nav-item ">
+          					<a class="nav-link mt-2 ml-2 mb-2" href="#">Past Speakers</a>
+        					</li>
+        					<li class="nav-item">
+          					<a class="nav-link mt-2 ml-2 mb-2" href="#">Contact Us</a>
+        					</li>
+      				</ul>
+      			</div>
+  			</nav>
+      <div class="hero">
+        <h1 class="hero-text">
+          SHATTER
+          <span class="typer" id="main" data-words="LIMITS,MISCONCEPTIONS,STEREOTYPES,EXPECTATIONS,THE GLASS CEILING" data-colors="white" data-delay="85" data-deleteDelay="500"></span>
+        </h1>
+      </div>
+      <div id="timer">
+        <div id="clockdiv">
+          <div>
+            <span class="days"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div>
+            <span class="hours"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div>
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <span class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+        <script src="assets/js/timer.js"></script>
+      </div>
+    </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/typer.js"></script>
+    <script type="text/javascript" src="assets/js/particles.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+  </html>
