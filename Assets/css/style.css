@@ -4,6 +4,7 @@
 
  body {
    background-color: black;
+	 	overflow:hidden;
  }
 
  * {
@@ -94,19 +95,9 @@
   width: 100%;
   text-align: center;
  }
- #navbar2{
-   opacity: .9;
-   position: fixed;
-  margin-right: 5px;
-  margin-top: -7vw;
-  background-color: #FF2B06;
-  color: white;
-  height: 60px;
-  width: 100%;
-  text-align: center;
- }
+
  .navContent{
- 	font-size:20px;
+ 	font-size:28px;
  	width: 180px;
   opacity: 1;
   color: white;
@@ -243,11 +234,43 @@
   margin-top: 5vh;
   text-align: left;
   background: transparent;
-
+	z-index: 10;
 }
 .head{
   position: relative;
   transform: translateX(-50%);
   left:50%;
   top:50%;
+}
+
+/* Responsiveness */
+@media only screen and (max-width:600px) and (min-width:400px){
+	.hero-text{
+		font-size: 25px;
+		text-align: center!important;
+	}.logo{
+		width: 250px!important;
+	}.head{
+		margin-left: -10!important;
+	}
+	.ted-nav{
+		background-color: black!important;
+	}
+}
+@media only screen and (max-width:399px){
+	.logo{
+		width: 200px;
+	}
+	.ted-nav{
+		background-color: black!important;
+	}
+}
+.logo{
+	width: 500px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.collapse .navbar-collapse{
+	background: transparent;
 }
