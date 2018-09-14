@@ -108,7 +108,7 @@ particlesJS('particles-js', {
         "speed": 3
       },
       "repulse": {
-        "distance": 100,
+        "distance": 70,
         "duration": 0.4
       },
       "push": {
