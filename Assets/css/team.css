@@ -1,0 +1,122 @@
+
+
+.center-align {
+    text-align: center;
+}
+
+#override .team {
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#override .team:not(:first-child,:last-child) {
+  padding-right:50px;
+  padding-left:50px;
+}
+
+.team h4 {
+    text-align:center;
+    margin-bottom: 2px;
+    margin-top: 25px;
+}
+
+.team .bio {
+    text-align: center;
+    margin-top: -14px;
+    margin-bottom:-8px;
+    padding:30px;
+
+}
+
+
+
+.teamimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -80px;
+    width:170px;
+    height:170px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
+.teamimg img.top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -170px;
+    width:170px;
+    height:170px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.teamimg img.bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -80px;
+    width:170px;
+    height:170px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
+
+.teamimg img.top:hover {
+  opacity:0;
+
+}
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.center-justified {
+  text-align: justify;
+  margin: 0 15%;
+}
+
+.team-header {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#override .team-rows .col {
+  padding-bottom: 10px;
+}
+
+
+.team-member {
+  position: relative;
+  overflow: hidden;
+}
+
+.member-image img {
+  border: none;
+  margin: auto;
+  display: block;
+}
+
+
+.team col col-md-6 col-lg-4 col-sm-12{
+  height: 456.6px;
+}
+
+
+
+
