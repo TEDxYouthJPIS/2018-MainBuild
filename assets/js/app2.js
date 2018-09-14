@@ -85,11 +85,11 @@ particlesJS('particles-js', {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "push"
       },
       "resize": true
     },
@@ -108,7 +108,7 @@ particlesJS('particles-js', {
         "speed": 3
       },
       "repulse": {
-        "distance": 150,
+        "distance": 100,
         "duration": 0.4
       },
       "push": {
