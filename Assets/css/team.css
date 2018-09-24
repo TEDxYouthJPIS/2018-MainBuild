@@ -141,36 +141,20 @@
   color: #3b5998;
 }
 
-.social-btns .btn.twitter:before {
-  background-color: #3cf;
+.social-btns .btn.linkedin-in:before {
+  background-color: #0077B5;
 }
 
-.social-btns .btn.twitter .fa {
-  color: #3cf;
+.social-btns .btn.linkedin-in .fa {
+  color: #0077B5;
 }
 
-.social-btns .btn.google:before {
-  background-color: #dc4a38;
-}
-
-.social-btns .btn.google .fa {
-  color: #dc4a38;
-}
-
-.social-btns .btn.github:before {
+.social-btns .btn.envelope:before {
   background-color: #000;
 }
 
-.social-btns .btn.github .fa {
+.social-btns .btn.envelope .fa {
   color: #000;
-}
-
-.social-btns .btn.skype:before {
-  background-color: #00aff0;
-}
-
-.social-btns .btn.skype .fa {
-  color: #00aff0;
 }
 
 .social-btns .btn:focus:before,
