@@ -1,0 +1,23 @@
+$(document).ready(function(){
+  $(".member1").hover(function(){
+  	$(this).addClass("scaleClass");
+  	$(this).css("borderRadius","50%").animate({borderRadius:"15px"},500);
+  	$(this).animate({borderWidth:"0px"},500);
+  	$(".memImg").delay(500).fadeOut();
+  	$(".reveal").fadeIn();
+  	
+  },function(){
+  	$(this).removeClass("scaleClass");
+  	$(this).animate({borderRadius:"50%"},500);
+  	$(this).animate({borderWidth:"5px"},500);
+  	$(".memImg").fadeIn();
+  });
+  $(".1").click(function(){
+  	$(".reveal").fadeOut();
+  	$(".bio1").fadeIn();
+	});
+  $(".back1").click(function(){
+  	$(".bio1").fadeOut(500);
+  	$(".reveal").fadeIn();
+  });
+});
