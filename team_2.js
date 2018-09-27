@@ -21,3 +21,75 @@ $(document).ready(function(){
   	$(".reveal").fadeIn();
   });
 });
+
+$(document).ready(function(){
+  $(".member2").hover(function(){
+    $(this).addClass("scaleClass");
+    $(this).css("borderRadius","50%").animate({borderRadius:"15px"},500);
+    $(this).animate({borderWidth:"0px"},500);
+    $(".memImg1").delay(500).fadeOut();
+    $(".reveal1").fadeIn();
+    
+  },function(){
+    $(this).removeClass("scaleClass");
+    $(this).animate({borderRadius:"50%"},500);
+    $(this).animate({borderWidth:"5px"},500);
+    $(".memImg1").fadeIn();
+  });
+  $(".2").click(function(){
+    $(".reveal1").fadeOut();
+    $(".bio2").fadeIn();
+  });
+  $(".back2").click(function(){
+    $(".bio2").fadeOut(500);
+    $(".reveal").fadeIn();
+  });
+});
+
+$(document).ready(function(){
+  $(".member3").hover(function(){
+    $(this).addClass("scaleClass");
+    $(this).css("borderRadius","50%").animate({borderRadius:"15px"},500);
+    $(this).animate({borderWidth:"0px"},500);
+    $(".memImg2").delay(500).fadeOut();
+    $(".reveal2").fadeIn();
+    
+  },function(){
+    $(this).removeClass("scaleClass");
+    $(this).animate({borderRadius:"50%"},500);
+    $(this).animate({borderWidth:"5px"},500);
+    $(".memImg2").fadeIn();
+  });
+  $(".3").click(function(){
+    $(".reveal2").fadeOut();
+    $(".bio3").fadeIn();
+  });
+  $(".back3").click(function(){
+    $(".bio3").fadeOut(500);
+    $(".reveal").fadeIn();
+  });
+});
+
+$(document).ready(function(){
+  $(".member4").hover(function(){
+    $(this).addClass("scaleClass");
+    $(this).css("borderRadius","50%").animate({borderRadius:"15px"},500);
+    $(this).animate({borderWidth:"0px"},500);
+    $(".memImg3").delay(500).fadeOut();
+    $(".reveal3").fadeIn();
+    
+  },function(){
+    $(this).removeClass("scaleClass");
+    $(this).animate({borderRadius:"50%"},500);
+    $(this).animate({borderWidth:"5px"},500);
+    $(".memImg3").fadeIn();
+  });
+  $(".4").click(function(){
+    $(".reveal3").fadeOut();
+    $(".bio4").fadeIn();
+  });
+  $(".back4").click(function(){
+    $(".bio4").fadeOut(500);
+    $(".reveal").fadeIn();
+  });
+});

@@ -1,4 +1,4 @@
-.member1,.member2,.member3,.member4,.member5,.member6{
+.member1,.member2,.member3,.member4,.member5,.member6, .member7, .member8, .member9, .member10, .member11, .member12, .member13, .member14, .member15, .member16, .member17{
   width: 300.0px;
   height:300.0px;
   border-radius: 50%;
@@ -25,7 +25,7 @@ canvas{
     flex-direction: column;
     height: 200%;
     position: static!important;
-  }.member1,.member2,.member3,.member4,.member5,.member6{
+  }.member1,.member2,.member3,.member4,.member5,.member6,.member7,.member8,.member9,.member10,.member11,.member12,.member13,.member14,.member15,.member16,.member17{
     margin:0 auto;
     overflow: scroll;
     width:70%!important;
@@ -67,12 +67,28 @@ canvas{
     width:100%;
     height: 100%;
   }
+  .memImg6{
+    width:100%;
+    height: 100%;
+  }
+  .memImg7{
+    width:100%;
+    height: 100%;
+  }
+  .memImg8{
+    width:100%;
+    height: 100%;
+  }
+  .memImg9{
+    width:100%;
+    height: 100%;
+  }
 }
 
 *{
   overflow-y: scroll!important;
 }
-.member1,.member2,.member3,.member4,.member5,.member6{
+.member1,.member2,.member3,.member4,.member5,.member6,.member7,.member8{
   border: double 5px transparent;
   overflow: hidden;
   background-image: linear-gradient(white, white), radial-gradient(circle at top left,#FF2B06,black);
@@ -104,6 +120,10 @@ canvas{
   width:100%;
   height: 100%;
 }
+.memImg6{
+  width:100%;
+  height: 100%;
+  }
 .reveal{
   width: 100%;
   height: 100%;
@@ -115,12 +135,13 @@ canvas{
 
 }
 .reveal-text{
-  font-size: 72px;
+  font-size: 32px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color:#FF2B06;
   opacity: 1;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 
 }
 .reveal-hr{
@@ -143,8 +164,9 @@ canvas{
 .reveal-sub{
   margin-top: -30px;
   letter-spacing: 2.5px;
-  color:#FF2B06;
+  color:#000;
   text-transform: uppercase;
+  text-align: center;
 }
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 .social-btns .btn,
@@ -270,6 +292,7 @@ canvas{
   text-align: center;
   display: none;
 }
+
 .bioBody{
   margin-top: 30px;
   letter-spacing: 2.5px;
