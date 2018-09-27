@@ -83,12 +83,48 @@ canvas{
     width:100%;
     height: 100%;
   }
+  .memImg10{
+    width:100%;
+    height: 100%;
+  }
+  .memImg11{
+    width:100%;
+    height: 100%;
+  }
+  .memImg12{
+    width:100%;
+    height: 100%;
+  }
+  .memImg13{
+    width:100%;
+    height: 100%;
+  }
+  .memImg14{
+    width:100%;
+    height: 100%;
+  }
+  .memImg15{
+    width:100%;
+    height: 100%;
+  }
+  .memImg16{
+    width:100%;
+    height: 100%;
+  }
+  .memImg17{
+    width:100%;
+    height: 100%;
+  }
+  .memImg18{
+    width:100%;
+    height: 100%;
+  }
 }
 
 *{
   overflow-y: scroll!important;
 }
-.member1,.member2,.member3,.member4,.member5,.member6,.member7,.member8{
+.member1,.member2,.member3,.member4,.member5,.member6,.member7,.member8,.member9,.member10,.member11,.member12,.member13,.member14,.member15,.member16,.member17{
   border: double 5px transparent;
   overflow: hidden;
   background-image: linear-gradient(white, white), radial-gradient(circle at top left,#FF2B06,black);
@@ -96,34 +132,82 @@ canvas{
   background-clip: content-box, border-box;
   overflow-y: hidden;
 }
-.memImg{
-  width:100%;
-  height: 100%;
-}
-.memImg1{
-  width:100%;
-  height: 100%;
-}
-.memImg2{
-  width:100%;
-  height: 100%;
-}
-.memImg3{
-  width:100%;
-  height: 100%;
-}
-.memImg4{
-  width:100%;
-  height: 100%;
-}
-.memImg5{
-  width:100%;
-  height: 100%;
-}
-.memImg6{
+  .memImg{
   width:100%;
   height: 100%;
   }
+  .memImg1{
+  width:100%;
+  height: 100%;
+  }
+  .memImg2{
+  width:100%;
+  height: 100%;
+  }
+  .memImg3{
+  width:100%;
+  height: 100%;
+  }
+  .memImg4{
+  width:100%;
+  height: 100%;
+  }
+  .memImg5{
+  width:100%;
+  height: 100%;
+  }
+  .memImg6{
+  width:100%;
+  height: 100%;
+  }
+  .memImg7{
+  width:100%;
+  height: 100%;
+  }
+  .memImg8{
+  width:100%;
+  height: 100%;
+  }
+  .memImg9{
+  width:100%;
+  height: 100%;
+  }
+  .memImg10{
+  width:100%;
+  height: 100%;
+  }
+  .memImg11{
+  width:100%;
+  height: 100%;
+  }
+  .memImg12{
+  width:100%;
+  height: 100%;
+  }
+  .memImg13{
+  width:100%;
+  height: 100%;
+  }
+  .memImg14{
+  width:100%;
+  height: 100%;
+  }
+  .memImg15{
+  width:100%;
+  height: 100%;
+  }
+  .memImg16{
+  width:100%;
+  height: 100%;
+  }
+  .memImg17{
+  width:100%;
+  height: 100%;
+  }
+  .memImg18{
+  width:100%;
+  height: 100%;
+  }  
 .reveal{
   width: 100%;
   height: 100%;
