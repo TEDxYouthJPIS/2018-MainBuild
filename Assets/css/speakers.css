@@ -1,45 +1,67 @@
-*{
-  overflow-y: scroll!important;
+
+#profile_1{
+  background: url('../images/speakers/ho.png');
+  background-size:cover;
+  opacity: 1!important;
 }
-.row{
-  display: flex;
-  justify-content: space-around;
-  z-index: 2147483647!important;
+.body{
+  letter-spacing: 2px;
+
 }
-.cell{
-  width: 200px;
-  height: 200px;
-  transition: 0.5s all;
-  background-image: url('../images/avatar.png');
-  background-size: cover;
-  border-radius: 50%;
-  margin-top: 50px;
-  z-index: 2147483647!important;
+body{
+  background: black!important;
+  overflow-y: scroll;
 }
-canvas{
-  margin-top: -750px;
-  z-index: -1!important;
+.back{
+  background: #FF2B06;
+
+  width: 100%;
+  height: 100%;
 }
-#particles-js{
-  z-index: -1!important;
+.profile_div{
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  float:left;
+  text-align: center;
 }
-@media only screen and (max-width:500px){
-  .row{
-    flex-direction: column;
-    justify-content: space-evenly;
-  }.cell{
-      margin-left: 25%;
-      margin-top: 50px;
-  }*{
-    overflow-y: scroll;
-  }
-  canvas{
-    margin-top: -2500px;
-    height: 400%!important;
+nav{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:600px){
+  .profile_div{
+    float: none;
+    width: 100%;
   }
 }
-.cell:hover{
-  transition: 0.5s all;
-  border:3px solid #FF2B06;
-  transform: scale(1.1);
+.name{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#profile_2, #profile_3{
+  padding: 20px;
+}
+#profile_2 {
+  background-color:black;
+  color:white;
+
+}
+#profile_2 .body{
+  color:white!important;
+  font-size: 15px;
+  text-align: right!important;
+}
+#profile_3{
+  background-color: black;
+  color: white;
+}
+#profile_3 .body{
+  color:white!important;
+  font-size: 15px;
+  text-align: left!important;
+}
+#profile_4{
+  background: url('../images/speakers/kk.jpg');
+  background-size:cover;
+  opacity: 1!important;
 }
