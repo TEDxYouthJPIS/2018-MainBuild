@@ -106,3 +106,7 @@ nav{
  top: 0;
  left: 0;
 }
+
+.modal_text{
+  padding: 10px;
+}
