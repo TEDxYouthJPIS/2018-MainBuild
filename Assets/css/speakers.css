@@ -1,67 +1,4 @@
-.body{
-  letter-spacing: 2px;
-}
 
-body{
-  background: black!important;
-  overflow-y: scroll;
-}
-
-.back{
-  background: #FF2B06;
-  width: 100%;
-  height: 100%;
-}
-
-.profile_div{
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  float:left;
-  text-align: center;
-}
-
-nav{
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width:600px){
-  .profile_div{
-    float: none;
-    width: 100%;
-  }
-}
-
-.name{
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#profile_left, #profile_right{
-  padding: 20px;
-}
-
-#profile_right {
-  background-color:black;
-  color:white;
-}
-
-#profile_right .body{
-  color:white!important;
-  font-size: 15px;
-  text-align: right!important;
-}
-
-#profile_left{
-  background-color: black;
-  color: white;
-}
-
-#profile_left .body{
-  color:white!important;
-  font-size: 15px;
-  text-align: left!important;
-}
 
 #particles-js {
  width: 100%;
@@ -74,4 +11,92 @@ nav{
  position: fixed;
  top: 0;
  left: 0;
+}
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly!important;
+  height: auto;
+
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+.item{
+  height: 500px;
+  background-color: white;
+  width: 20%;
+
+  transition: 0.5s all;
+}
+#item1{
+  background: url('../images/speakers/hitesh-oberoi.png');
+  background-size: cover;
+}
+#item2{
+  background: url('../images/speakers/kaizaad-kotwal.jpg');
+  background-size: cover;
+}
+#item3{
+  background: url('../images/speakers/manu-chopra.jpg');
+  background-size: cover;
+}
+#item4{
+  background: url('../images/speakers/amit_lodha.jpg');
+  background-size: cover;
+}
+.name, .text{
+  color: white;
+  display: none;
+  /* opacity: 0; */
+  z-index: 10;
+}
+
+.inlay{
+  height:100%;
+  margin: 0!important;
+  width: 100%;
+  transition: 0.5s all;
+  opacity:0;
+  padding: 20px!important;
+  background: black;
+}
+.inlay:hover>.text{
+  display: block;
+  opacity: 1;
+  transition: 0.5s all;
+}
+.inlay:hover>.name{
+  display: block;
+  opacity: 1;
+  transition: 0.5s all;
+}
+.item:hover>.inlay{
+  opacity: 0.5!important;
+  transition: 0.5s all;
+}
+.item:hover{
+  box-shadow:inset 5px 5px 5px 5px,black;
+}
+html,body {
+    height:100%;
+}
+@media only screen and (max-width:500px){
+  .row{
+    flex-direction: column;
+    margin-top: 750px;
+    width:110%!important;
+  }.item{
+    width: 100%;
+    margin: 0 auto;
+  }*{
+    overflow-y: scroll;
+  }canvas{
+      display: none;
+  }nav{
+    position: sticky!important;
+  }
+}
+.modal{
+  z-index: 2147483647!important;
 }
