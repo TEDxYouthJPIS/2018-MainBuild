@@ -23,7 +23,7 @@
   transform: translateY(-50%);
 }
 .item{
-  height: 500px;
+  height: 350px;
   background-color: white;
   width: 20%;
 
@@ -43,6 +43,31 @@
 }
 #item4{
   background: url('../images/speakers/amit_lodha.jpg');
+  background-size: cover;
+}
+
+#item5{
+  background: url('../images/speakers/abhishek_singh.jpg');
+  background-size: cover;
+}
+#item6{
+  background: url('../images/speakers/anuranjita_kumar.jpg');
+  background-size: cover;
+}
+#item7{
+  background: url('../images/speakers/bickram_ghosh.jpg');
+  background-size: cover;
+}
+#item8{
+  background: url('../images/speakers/cyrus_broacha.jpg');
+  background-size: cover;
+}
+#item9{
+  background: url('../images/speakers/kush_kamra.jpg');
+  background-size: cover;
+}
+#item10{
+  background: url('../images/speakers/sabika_naqvi.jpg');
   background-size: cover;
 }
 .name, .text{
